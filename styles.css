@@ -55,22 +55,20 @@ model-viewer {
 }
 
 .HotspotAnnotation{
-  background: #fff;
-  border-radius: 100%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  color: rgba(0, 0, 0, 0.8);
-  display: inline-block;;
-  font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 12px;
-  font-weight: 150;
-  left: calc(100% + 1em);
-  padding: 1em 1em;
-  overflow-wrap: break-word;
-  
-  position: absolute;
- 
-  width: 200px;
-  height:200px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    font-family: Futura, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    font-weight: 150;
+    left: calc(100% + 1em);
+    padding: 5em 1em;
+    overflow-wrap: normal;
+    position: absolute;
+    width: 150px;
+    height: 100px;
 }
 
 .Hotspot:not([data-visible]) > * {
