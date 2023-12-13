@@ -62,13 +62,13 @@ model-viewer {
   display: inline-block;;
   font-family: Futura, Helvetica Neue, sans-serif;
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 150;
   left: calc(100% + 1em);
   
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
-  top: 50%;
+ 
   width: 150px;
   height:150px;
 }
