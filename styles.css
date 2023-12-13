@@ -64,12 +64,13 @@ model-viewer {
   font-size: 12px;
   font-weight: 100;
   left: calc(100% + 1em);
-  max-width: 128px;
+  
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
   top: 50%;
-  width: max-content;
+  width: 150px;
+  height:150px;
 }
 
 .Hotspot:not([data-visible]) > * {
