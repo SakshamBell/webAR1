@@ -68,7 +68,7 @@ model-viewer {
     overflow-wrap: normal;
     position: absolute;
     width: 150px;
-    height: 100px;
+    
 }
 
 .Hotspot:not([data-visible]) > * {
