@@ -64,7 +64,7 @@ model-viewer {
     font-size: 12px;
     font-weight: 150;
     left: calc(100% + 1em);
-    padding: 5em 1em;
+    padding: 4em 1em;
     overflow-wrap: normal;
     position: absolute;
     width: 150px;
