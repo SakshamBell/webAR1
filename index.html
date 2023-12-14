@@ -6,11 +6,9 @@
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
-    <script> 
-      modelViewer.play({repetitions: 1})
-        </script>
+  
   </head>
-  <body>
+  <body onload = "play()">
     <!-- <model-viewer> HTML element -->
     <model-viewer src="cbq_N3.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" scale ="0.5 0.5 0.5" autoplay>
       </button><button class="Hotspot" slot="hotspot-3" data-surface="15 0 1538 1536 1549 0.068 0.311 0.621" data-visibility-attribute="visible">
@@ -27,7 +25,14 @@
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
       </div>
-    </model-viewer>  
+    </model-viewer> 
+    <script>
+      const mv = document.querySelector('model-viewer');
+      function play() {
+        // comment below line and the repetitions count will be respected, but for the first animation only
+        mv.play({repetitions: 1})
+      }
+    </script>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
